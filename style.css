@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6f5ff;
+}
+
+.admin-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li a.logout-btn {
+    color: #ffcccc;
+    font-weight: bold;
+}
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+.dropdown-section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.add-form input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.add-form button {
+    padding: 8px 14px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.item-list {
+    margin-top: 15px;
+}
+
+.item-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.delete-btn {
+    color: red;
+    text-decoration: none;
+}
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    text-decoration: none;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
