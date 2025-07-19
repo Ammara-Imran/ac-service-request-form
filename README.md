@@ -14,13 +14,11 @@ This is a PHP-based service request form for an Air Conditioning (AC) company. T
 
 ---
 
-## 📸 Screenshots
-
 ### 📝 Job Entry Form  
-![Job Entry Form](screenshots/jobentryform.png)
+![Job Entry Form](jobentryform.png)
 
 ### 🔧 Admin Panel  
-![Admin Panel](screenshots/adminpanel.png)
+![Admin Panel](adminpanel.png)
 
 
 ---
