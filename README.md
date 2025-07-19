@@ -15,10 +15,10 @@ This is a PHP-based service request form for an Air Conditioning (AC) company. T
 ---
 
 ### 📝 Job Entry Form  
-![Job Entry Form](jobentryform.png)
+![Job Entry Form](jobentryform.jpeg)
 
 ### 🔧 Admin Panel  
-![Admin Panel](adminpanel.png)
+![Admin Panel](adminpanel.jpeg)
 
 
 ---
